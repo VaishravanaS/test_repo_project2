@@ -1,0 +1,115 @@
+-------------------------  ECG_NonBIOS.pjt - Release  -------------------------
+"C:\CCStudio_v3.3\C5500\cgtools\bin\cl55" -mg -pm -pdsw225 -op0 -o3 -fr"D:/MDK_25_08_08/ECGSystem_v_4_5/ECGSystem_v_4_5/Release" -i"D:/MDK_25_08_08/ECGSystem_v_4_5/ECGSystem_v_4_5/inc" -i"D:/MDK_25_08_08/ECGSystem_v_4_5/ECGSystem_v_4_5/src" -i"D:/MDK_25_08_08/ECGSystem_v_4_5/ECGSystem_v_4_5/common_inc" -i"D:/MDK_25_08_08/ECGSystem_v_4_5/ECGSystem_v_4_5/common_src" -@"../Release.lkf"
+[ECG_Filter_Co-efficients.c]
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECG_Filter_Co-efficients.c", line 753: warning: last line of file ends without a newline
+[ECGSystem_main.c]
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystem_main.c", line 159: warning: variable "i" was declared but never referenced
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystem_main.c", line 853: warning: initialization with "{...}" expected for aggregate object
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystem_main.c", line 853: warning: variable "UARTVal" was declared but never referenced
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystem_main.c", line 87: warning: variable "GPIO8Flag" was declared but never referenced
+[ECGSystemFunctions.c]
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystemFunctions.c", line 195: warning: argument of type "Uint8 *" is incompatible with parameter of type "const Char *"
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystemFunctions.c", line 134: warning: variable "LeadOffVal" was declared but never referenced
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystemFunctions.c", line 135: warning: variable "LeadVal" was declared but never referenced
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystemFunctions.c", line 138: warning: variable "retVal" was set but never used
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystemFunctions.c", line 439: warning: variable "i" was declared but never referenced
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystemFunctions.c", line 439: warning: variable "j" was declared but never referenced
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystemFunctions.c", line 908: warning: explicit type is missing ("int" assumed)
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystemFunctions.c", line 909: warning: explicit type is missing ("int" assumed)
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystemFunctions.c", line 1023: warning: explicit type is missing ("int" assumed)
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystemFunctions.c", line 1031: warning: variable "i" was declared but never referenced
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystemFunctions.c", line 1259: warning: last line of file ends without a newline
+[ECGSystemInit.c]
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystemInit.c", line 323: warning: integer conversion resulted in truncation
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystemInit.c", line 518: warning: variable "i2cdata" was set but never used
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystemInit.c", line 671: warning: integer conversion resulted in a change of sign
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystemInit.c", line 675: warning: integer conversion resulted in a change of sign
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystemInit.c", line 712: warning: last line of file ends without a newline
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystemInit.c", line 80: warning: variable "FE_Active" was declared but never referenced
+[I2C.c]
+[InterruptHandlers.c]
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\InterruptHandlers.c", line 127: warning: function declared implicitly
+[lcd.c]
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\lcd.c", line 263: warning: function declared implicitly
+[sar.c]
+[cpu_clock_init.c]
+[dda_dma.c]
+[dda_spi.c]
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\src\dda_spi.c", line 182: warning: function declared implicitly
+[dda_uart.c]
+[dda_uartCfg.c]
+[ddc_dma.c]
+[ddc_spi.c]
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\src\ddc_spi.c", line 229: warning: function declared implicitly
+[ddc_uart.c]
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\src\ddc_uart.c", line 1605: warning: conversion from integer to smaller pointer
+[llc_spi.c]
+[llc_uart.c]
+[pal_osList.c]
+[pal_osprotect.c]
+[pal_osSem.c]
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\src\pal_osSem.c", line 55: warning: variable "temp" was set but never used
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\src\pal_osSem.c", line 86: warning: variable "semPendResult" was declared but never referenced
+[pal_osTime.c]
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\src\pal_osTime.c", line 58: warning: missing return statement at end of non-void function "PAL_osGetCurrentTick"
+[timer.c]
+[util_circ.c]
+warning: symbol 'HR_flag' redeclared with incompatible type
+         in 'D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystemFunctions.c' line 908 and 'D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystem_main.c' line 96
+warning: symbol 'LeadOff_Flag' redeclared with incompatible type
+         in 'D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystemFunctions.c' line 909 and 'D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\ECGSystem_main.c' line 97
+warning: symbol 'LCD_clear_window' redeclared with incompatible type
+         in 'D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\InterruptHandlers.h' line 29 and 'D:/MDK_25_08_08/ECGSystem_v_4_5/ECGSystem_v_4_5/inc/lcd.h' line 74
+warning: symbol 'draw_string' redeclared with incompatible type
+         in 'D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\InterruptHandlers.h' line 30 and 'D:/MDK_25_08_08/ECGSystem_v_4_5/ECGSystem_v_4_5/inc/lcd.h' line 68
+warning: symbol 'draw_string' redeclared with incompatible type
+         in 'D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\lcd.c' line 258 and 'D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\InterruptHandlers.h' line 30
+warning: symbol 'LCD_clear_window' redeclared with incompatible type
+         in 'D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\lcd.c' line 346 and 'D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\InterruptHandlers.h' line 29
+warning: symbol 'LLC_SPI_WLenGet' redeclared with incompatible type
+         in 'D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\src\llc_spi.c' line 352 and 'D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\src\dda_spi.c' line 182
+warning: symbol 'PAL_osProtectEntry' redeclared with incompatible type
+         in 'D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\src\pal_osprotect.c' line 60 and 'D:/MDK_25_08_08/ECGSystem_v_4_5/ECGSystem_v_4_5/inc/pal_osProtect.h' line 103
+warning: symbol 'PAL_osSemCreate' redeclared with incompatible type
+         in 'D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\src\pal_osSem.c' line 50 and 'D:/MDK_25_08_08/ECGSystem_v_4_5/ECGSystem_v_4_5/inc/pal_osSem.h' line 124
+warning: symbol 'PAL_osCheckTimeOut' redeclared with incompatible type
+         in 'D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\src\pal_osTime.c' line 60 and 'D:/MDK_25_08_08/ECGSystem_v_4_5/ECGSystem_v_4_5/inc/pal_ostime.h' line 66
+[vectors.asm]
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\common_src\vectors.asm", REMARK   at line 236:
+ [R5672]
+         If there is a long MMR write with no intervening single MMR before
+           this return from interrupt, then an interrupted conditional
+           execution may be corrupted; (see the C55x silicon exceptions errata;
+           Advisory CPU_94)
+	        return_int
+
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\common_src\vectors.asm", REMARK   at line 236:
+ [R5674]
+         If processor is in fast-return mode, and this return from interrupt
+           instruction is stalled in the ADDRESS or ACCESS1 phase, then the
+           execution of a subsequent conditional execution may be corrupted;
+           (see the C55x silicon exceptions errata; Advisory CPU_99)
+	        return_int
+
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\common_src\vectors.asm", REMARK   at line 236:
+ [R5675]
+         An MMR write to the RPTC register that is close to this return from
+           interrupt instruction may cause an interrupted single repeat loop's
+           execution to be corrupted; (see the C55x silicon exceptions errata;
+           Advisory CPU_100)
+	        return_int
+
+<Optimizing>
+<Generating>
+<Assembling>
+
+[Linking...] "C:\CCStudio_v3.3\C5500\cgtools\bin\cl55" -@"Release.lkf"
+<Linking>
+>> warning: creating .sysstack section with default size of 500 words.
+   Use
+            -sysstack option to change the default size.
+>> warning: '.sysmem' section not found -- ignoring '-heap <size>' option.
+>> warning: entry point other than _c_int00 specified
+
+Build Complete,
+  0 Errors, 43 Warnings, 3 Remarks.

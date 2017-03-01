@@ -1,0 +1,8 @@
+TMS320c5515 code document
+ADS1298 is 24 bit
+we use 20 bits resolution.
+suppose gain in PGA is set to 1, 1mV amplitude square wave(2mVpp) gives peak to peak waveform of 435(digital).
+1mV --> 217.5 
+((217.5)*(16)) *2.4 / ((2^23)-1) volts 
+converting from 24 bits to 20 bits is done by removing 4 bits by shifting  
+20 bits to 16 bits is done by typecasting (removing 4 MSB bits explicitly*)

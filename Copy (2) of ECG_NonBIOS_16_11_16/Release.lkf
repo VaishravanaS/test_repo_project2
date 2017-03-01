@@ -1,0 +1,5 @@
+-z -c -ereset_isr -m"./Release/ECGSystem.map" -o"./Release/ECGSystem.out" -w -x -i"C:/CCStudio_v3.3/C5500/csl/lib" -i"C:/CCStudio_v3.3/C5500/xdais/lib" -i"C:/CCStudio_v3.3/bios_5_32_01/packages/ti/bios/lib" -i"C:/CCStudio_v3.3/bios_5_32_01/packages/ti/rtdx/lib/c5500" -i"C:/CCStudio_v3.3/C5500/cgtools/lib"
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\c5505.cmd"
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\Release\ECG_Filter_Co-efficients.obj"
+"D:\MDK_25_08_08\ECGSystem_v_4_5\ECGSystem_v_4_5\Release\vectors.obj"
+"C:\CCStudio_v3.3\C5500\cgtools\lib\rts55.lib"

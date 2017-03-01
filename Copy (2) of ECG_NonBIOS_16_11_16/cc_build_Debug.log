@@ -1,0 +1,32 @@
+--------------------------  ECG_NonBIOS.pjt - Debug  --------------------------
+[ADS1298_Pacer.c] "C:\Program Files\Texas Instruments\ccsv4\tools\compiler\c5500\bin\cl55" -g -mg -pdsw225 -fr"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/Debug" -i"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/inc" -i"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/common_inc" -d"_DEBUG" -d"C55X" -ml -vcore:3.3 --memory_model=huge -@"../Debug.lkf" "ADS1298_Pacer.c"
+
+[ADS1298Init.c] "C:\Program Files\Texas Instruments\ccsv4\tools\compiler\c5500\bin\cl55" -g -mg -pdsw225 -fr"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/Debug" -i"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/inc" -i"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/common_inc" -d"_DEBUG" -d"C55X" -ml -vcore:3.3 --memory_model=huge -@"../Debug.lkf" "ADS1298Init.c"
+
+[ECGSystem_main.c] "C:\Program Files\Texas Instruments\ccsv4\tools\compiler\c5500\bin\cl55" -g -mg -pdsw225 -fr"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/Debug" -i"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/inc" -i"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/common_inc" -d"_DEBUG" -d"C55X" -ml -vcore:3.3 --memory_model=huge -@"../Debug.lkf" "ECGSystem_main.c"
+
+[ECGSystemFunctions.c] "C:\Program Files\Texas Instruments\ccsv4\tools\compiler\c5500\bin\cl55" -g -mg -pdsw225 -fr"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/Debug" -i"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/inc" -i"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/common_inc" -d"_DEBUG" -d"C55X" -ml -vcore:3.3 --memory_model=huge -@"../Debug.lkf" "ECGSystemFunctions.c"
+"ECGSystemFunctions.c", line 653: warning: function declared implicitly
+"ECGSystemFunctions.c", line 285: warning: variable "i" was declared but never referenced
+
+[ECGSystemInit.c] "C:\Program Files\Texas Instruments\ccsv4\tools\compiler\c5500\bin\cl55" -g -mg -pdsw225 -fr"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/Debug" -i"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/inc" -i"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/common_inc" -d"_DEBUG" -d"C55X" -ml -vcore:3.3 --memory_model=huge -@"../Debug.lkf" "ECGSystemInit.c"
+"ECGSystemInit.c", line 390: warning: integer conversion resulted in a change of sign
+"ECGSystemInit.c", line 394: warning: integer conversion resulted in a change of sign
+
+[lcd.c] "C:\Program Files\Texas Instruments\ccsv4\tools\compiler\c5500\bin\cl55" -g -mg -pdsw225 -fr"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/Debug" -i"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/inc" -i"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/common_inc" -d"_DEBUG" -d"C55X" -ml -vcore:3.3 --memory_model=huge -@"../Debug.lkf" "lcd.c"
+"lcd.c", line 179: warning: variable "i" was declared but never referenced
+"lcd.c", line 179: warning: variable "j" was declared but never referenced
+"lcd.c", line 179: warning: variable "k" was declared but never referenced
+"lcd.c", line 180: warning: variable "data" was declared but never referenced
+"lcd.c", line 494: warning: variable "cs_flag" was declared but never referenced
+"lcd.c", line 574: warning: variable "j" is used before its value is set
+"lcd.c", line 559: warning: variable "cs_flag" was declared but never referenced
+
+[sar.c] "C:\Program Files\Texas Instruments\ccsv4\tools\compiler\c5500\bin\cl55" -g -mg -pdsw225 -fr"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/Debug" -i"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/inc" -i"C:/WorkTI/SW/MDK/ECG_ADS1298/PG2/C5515EVM/ADS1298_ECGSystem_C5515EVM/ADS1298ECGSystem_v1.12/common_inc" -d"_DEBUG" -d"C55X" -ml -vcore:3.3 --memory_model=huge -@"../Debug.lkf" "sar.c"
+
+[Linking...] "C:\Program Files\Texas Instruments\ccsv4\tools\compiler\c5500\bin\cl55" -@"Debug.lkf"
+<Linking>
+warning: entry-point symbol other than "_c_int00" specified:  "reset_isr"
+
+Build Complete,
+  0 Errors, 12 Warnings, 0 Remarks.
